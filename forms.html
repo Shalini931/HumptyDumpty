@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>King's - Reservations</title>
+
+<style>
+
+form {
+
+margin: 20px auto;
+
+width: 80%;
+
+}
+
+label {
+
+display: block;
+
+margin-top: 10px;
+
+}
+
+input[type="text"],
+
+input[type="email"],
+
+input[type="date"],
+
+input[type="time"],
+
+input[type="number"] {
+
+width: 100%;
+
+padding: 10px;
+
+margin-top: 5px;
+
+}
+
+input[type="submit"] {
+
+margin-top: 10px;
+
+padding: 10px;
+
+background-color: #333;
+
+color: #fff;
+
+border: none;
+
+cursor: pointer;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>King's</h1>
+
+</header>
+
+<nav>
+
+<a href="index.html">Home</a> |
+
+<a href="menu.html">Menu</a> |
+
+<a href="reservation.html">Reservations</a> |
+
+<a href="#">Contact</a>
+
+</nav>
+
+<main>
+
+<h2>Make a Reservation</h2>
+<form>
+
+<label for="name">Name:</label>
+
+<input type="text" id="name" name="name" required>
+
+<label for="email">Email:</label>
+
+<input type="email" id="email" name="email" required>
+
+<label for="date">Date:</label>
+
+<input type="date" id="date" name="date" required>
+
+<label for="time">Time:</label>
+
+<input type="time" id="time" name="time" required>
+
+<label for="guests">Number of Guests:</label>
+
+<input type="number" id="guests" name="guests" min="1" max="10" required>
+
+<input type="submit" value="Submit">
+
+</form>
+
+</main>
+
+<footer>
+
+<p>&copy; 2023 King's. All rights reserved.</p> </footer>
+
+</body>
+
+</html>

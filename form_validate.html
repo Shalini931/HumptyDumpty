@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Document</title>
+
+</head> <body>
+
+<style> div {
+
+display: flex; flex-direction: column; width: 200px;
+
+} div>input {
+
+margin-bottom: 10px; }
+
+</style>
+
+<h1>Form Validation</h1> <div>
+
+<label for="">Email</label>
+
+<input type="email" name="email" id="email"> <label for="">Phone No.</label> <input type="tel" name="phone" id="phone">
+
+<label for="">Password</label>
+
+<input type="password" name="password" id="password"> <button onclick="validate()">Submit</button>
+
+</div>
+
+<p id="email-validation"></p>
+
+<p id="phone-validation"></p>
+
+<p id="password-validation"></p> <script src="/Exp 7/index.js"></script>
+
+</body>
+
+</html>
